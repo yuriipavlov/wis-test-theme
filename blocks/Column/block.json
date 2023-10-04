@@ -1,0 +1,35 @@
+{
+  "apiVersion": 2,
+  "name": "wis-test-theme/column",
+  "title": "Column",
+  "category": "wis-test-theme",
+  "parent": ["wis-test-theme/row"],
+  "icon": "info",
+  "description": "Bootstrap column",
+  "keywords": [
+    "Column",
+    "Columns",
+    "Container",
+    "Bootstrap"
+  ],
+  "textdomain": "",
+  "styles": [],
+  "supports": {},
+  "example": {},
+  "attributes": {
+    "size": {
+      "type": "string",
+      "default": "default"
+    },
+    "modification": {
+      "type": "object",
+      "default": {
+        "sm": 12,
+        "lg": 6
+      }
+    }
+  },
+  "editorScript": "file:build/index.js",
+  "editorStyle": "file:build/editor.css",
+  "style": ""
+}

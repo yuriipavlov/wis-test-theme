@@ -1,0 +1,39 @@
+{
+  "name": "wis-test-theme",
+  "version": "0.0.1",
+  "description": "WordPress theme with additional features",
+  "devDependencies": {
+    "@wordpress/babel-preset-default": "7.16.*",
+    "@wordpress/icons": "9.23.*",
+    "@babel/plugin-proposal-class-properties": "7.18.*",
+    "bootstrap": "5.3.1",
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "glob": "10.0.*",
+    "dotenv": "16.3.*",
+    "laravel-mix": "6.0.*",
+    "sass": "1.61.*",
+    "sass-loader": "12.6.*"
+  },
+  "scripts": {
+    "install-dev": "npm install && npm run dev",
+    "install-prod": "npm install && npm run prod",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Yuriipavlov",
+  "license": "ISC"
+}

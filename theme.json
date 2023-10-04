@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "customTemplates": [
+    {
+      "name": "404",
+      "postTypes": [
+        "page"
+      ],
+      "title": "404"
+    }
+  ],
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1320px",
+      "wideSize": "1320px"
+    }
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Footer"
+    }
+  ]
+}
