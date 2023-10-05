@@ -41,11 +41,6 @@ const allAssets = glob.sync('assets/src/**/!(_)*.@(scss|js|jsx)')
 allAssets.forEach(assetPath => {
 
   if (assetPath.endsWith('.scss')) {
-    /*const additionalData = assetPath.startsWith('blocks/') ? '' +
-      '@import "../../../assets/src/styles/utils/variables";' +
-      '@import "../../../assets/src/styles/utils/mixins";' +
-      '@import "../../../assets/src/styles/utils/icons";'
-      : '';*/
     const additionalData = '';
     mix.sass(assetPath, assetPath.replace(/\/src\//, '/build/').replace(/\.(scss)$/, '.css'), {
       additionalData
