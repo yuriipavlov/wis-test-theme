@@ -12,7 +12,7 @@ use WISTestTheme\WISTestTheme;
 
 defined( 'ABSPATH' ) || exit;
 
-if ( PHP_VERSION_ID < 80100 ) {
+if ( PHP_VERSION_ID < 80000 ) {
     error_log( sprintf( __( 'Theme require at least PHP 8.1.0 ( You are using PHP %s ) ' ), PHP_VERSION ) );
 
     return;
