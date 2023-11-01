@@ -17,7 +17,7 @@
   },
   "scripts": {
     "install-dev": "npm install && npm run dev",
-    "install-prod": "npm install && npm run prod",
+    "install-prod": "npm ci --only=production && npm run prod",
     "dev": "npm run development",
     "development": "mix",
     "watch": "mix watch",
